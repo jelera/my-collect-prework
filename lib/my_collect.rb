@@ -17,11 +17,9 @@ end
 
 def return_odds(arr)
 
-  output = arr.collect do |num|
+  output = arr.find_all do |num|
     num if num % 2 == 0
   end
-
-  output.delete(nil)
 
 end
 
