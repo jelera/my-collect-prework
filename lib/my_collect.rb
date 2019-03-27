@@ -14,12 +14,11 @@ def my_collect(arr)
 end
 
 
-# 1..2 arr  return odds
 
 def return_odds(arr)
 
   arr.collect do |num|
-    num % 2 == 0
+    num if num % 2 == 0
   end
 
 end
