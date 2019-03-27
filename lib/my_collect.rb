@@ -18,7 +18,7 @@ end
 def return_odds(arr)
 
   output = arr.find_all do |num|
-    num if num % 2 == 0
+    num if num % 2 != 0
   end
 
 end
