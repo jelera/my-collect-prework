@@ -24,6 +24,6 @@ def return_odds(arr)
 
 end
 
-arr1 = Array.new(1..10)
+arr1 = (1..10).to_a
 
 puts return_odds(arr1)
